@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Source – Liri Media Player</title>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><img src="logo.png" alt=""><a href="https://github.com/LiriPlayer/liri-releases">Liri Media Player</a></header>
+  <nav><a href="datenschutz.html">Datenschutz</a><a href="privacy.html">Privacy (English)</a><a href="opensource.html">Open Source / FFmpeg</a></nav>
+
+  <h1>Open Source / FFmpeg</h1>
+
+  <section>
+    <h2>FFmpeg 6.0.1 – LGPL 2.1</h2>
+    <p>Zum Dekodieren von Tonspuren nutzt die App <a href="https://ffmpeg.org">FFmpeg</a> in der Version <b>6.0.1</b>,
+       lizenziert unter der <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License 2.1</a>.
+       FFmpeg wurde ohne <code>--enable-gpl</code> und ohne <code>--enable-nonfree</code> gebaut und nicht verändert.</p>
+    <p>FFmpeg ist in der App in der Bibliothek <code>libffmpegJNI.so</code> enthalten (zusammen mit der FFmpeg-Erweiterung von AndroidX Media3, Apache 2.0).</p>
+    <h2>Downloads</h2>
+    <ul>
+      <li><a href="downloads/ffmpeg-6.0.1.tar.xz">FFmpeg 6.0.1 – vollständiger Quellcode</a> (unverändertes Original von ffmpeg.org, 10 MB)</li>
+      <li><a href="downloads/liri-ffmpeg-build.zip">Build-Skript und JNI-Quellcode</a>: <code>build_ffmpeg_windows.sh</code> (verwendete Konfiguration),
+          <code>CMakeLists.txt</code>, <code>ffmpeg_jni.cc</code></li>
+    </ul>
+    <h2>Bibliothek selbst bauen und austauschen</h2>
+    <p>Mit dem Quellcode, dem Build-Skript und dem Android NDK r26b lässt sich FFmpeg neu bauen (auch in einer geänderten Version) und
+       daraus <code>libffmpegJNI.so</code> neu erstellen. Diese Datei kann in der APK ersetzt werden; die APK muss danach neu signiert werden.
+       Bei Fragen helfen wir gerne: <a href="mailto:mediaplayerliri@proton.me">mediaplayerliri@proton.me</a></p>
+    <p class="dim">Das Angebot gilt mindestens drei Jahre ab der letzten Verteilung der App.</p>
+  </section>
+
+  <h2>Weitere Komponenten (Apache License 2.0)</h2>
+  <p>Kotlin, AndroidX, Jetpack Compose, Material Icons, AndroidX Media3 (ExoPlayer, FFmpeg-Erweiterung), OkHttp, Coil, ZXing.
+     Die vollständigen Lizenztexte stehen in der App unter Einstellungen → Über / Rechtliches → Open-Source-Lizenzen.</p>
+
+  <h2>English</h2>
+  <p>The app uses FFmpeg 6.0.1 (unmodified, LGPL 2.1, built without GPL or nonfree parts) to decode audio, contained in <code>libffmpegJNI.so</code>.
+     The complete source code, the build script and the JNI source are available above. With them, the library can be rebuilt (also from a modified FFmpeg)
+     and replaced in the APK (re-sign afterwards). Other components are licensed under the Apache License 2.0 (see the list above).</p>
+
+  <footer>Kontakt / Contact: <a href="mailto:mediaplayerliri@proton.me">mediaplayerliri@proton.me</a></footer>
+</main>
+</body>
+</html>
