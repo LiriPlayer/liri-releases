@@ -10,14 +10,16 @@ Für Fire TV, Android TV und Android (Handy/Tablet). Die App enthält **keine Se
 
 ## 1. Installieren
 
-**Fire TV**
-1. Im Amazon-Store die App **Downloader** installieren.
-2. Einstellungen → Mein Fire TV → Entwickleroptionen → **Unbekannte Apps installieren** → Downloader erlauben.
-   *(Keine Entwickleroptionen? Einstellungen → Mein Fire TV → Info → 7× auf den Gerätenamen drücken.)*
-3. In Downloader eingeben: `https://github.com/LiriPlayer/liri-releases/releases/latest/download/Liri.apk` → **Installieren**.
-4. Danach kann die APK-Datei in Downloader gelöscht werden.
+**Fire TV – Amazon Appstore (empfohlen)**
+1. Auf dem Fire TV die **Suche** (Lupe) öffnen.
+2. **„liri“** eingeben.
+3. **Liri Media Player** auswählen → **Herunterladen**.
+4. Fertig – Downloader und „Unbekannte Apps installieren“ sind nicht mehr nötig.
 
-**Android TV / Handy:** Den Link oben im Browser öffnen, Datei öffnen → **Installieren** (beim ersten Mal das Installieren aus dieser Quelle erlauben).
+> **Bisher die APK-Version installiert?** Vorher *Einstellungen → Sicherung → Sicherung speichern*.
+> Lässt sich die Store-Version nicht installieren: alte Version deinstallieren, Store-Version installieren, *Sicherung laden*.
+
+**Android TV / Handy:** Den Link `https://github.com/LiriPlayer/liri-releases/releases/latest/download/Liri.apk` im Browser öffnen, Datei öffnen → **Installieren** (beim ersten Mal das Installieren aus dieser Quelle erlauben).
 
 ---
 
@@ -166,8 +168,8 @@ Ohne PIN lässt sich nichts sperren.
 
 ## 10. Updates & Probleme
 
-- **Updates:** Die App meldet neue Versionen selbst („Update verfügbar“ → **Installieren**). Beim ersten Update fragt das Gerät, ob Liri Media Player Apps installieren darf → erlauben.
-  Manuell: *Einstellungen → Über / Rechtliches → Nach Update suchen*.
+- **Updates:** Aus dem Amazon Appstore installiert: Updates kommen automatisch über den Appstore.
+  APK-Version (Android TV / Handy): Die App meldet neue Versionen selbst („Update verfügbar“ → **Installieren**). Beim ersten Update fragt das Gerät, ob Liri Media Player Apps installieren darf → erlauben. Manuell: *Einstellungen → Über / Rechtliches → Nach Update suchen*.
 - **Problem melden:** *Einstellungen → Über / Rechtliches → Problem melden* – kurz beschreiben, was nicht geht → **Senden**. Mitgeschickt werden App-Version, Gerätemodell und ein technisches Protokoll – **keine Zugangsdaten**.
 - **Nach einem Absturz** fragt die App beim nächsten Start, ob sie den Bericht senden darf. Optional „Künftig automatisch senden“.
 - **Sicherung:** Vor einem Gerätewechsel *Sicherung speichern* – auf dem neuen Gerät *Sicherung laden*.

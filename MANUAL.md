@@ -10,14 +10,16 @@ For Fire TV, Android TV and Android (phone/tablet). The app contains **no channe
 
 ## 1. Install
 
-**Fire TV**
-1. Install the **Downloader** app from the Amazon store.
-2. Settings → My Fire TV → Developer options → **Install unknown apps** → allow Downloader.
-   *(No developer options? Settings → My Fire TV → About → press the device name 7 times.)*
-3. Enter in Downloader: `https://github.com/LiriPlayer/liri-releases/releases/latest/download/Liri.apk` → **Install**.
-4. Afterwards the APK file can be deleted in Downloader.
+**Fire TV – Amazon Appstore (recommended)**
+1. Open **Search** (magnifier) on your Fire TV.
+2. Type **"liri"**.
+3. Select **Liri Media Player** → **Download**.
+4. Done – Downloader and "Install unknown apps" are no longer needed.
 
-**Android TV / phone:** Open the link above in the browser, open the file → **Install** (the first time, allow installing from this source).
+> **Previously installed the APK version?** First *Settings → Backup → Save backup*.
+> If the store version won't install: uninstall the old version, install the store version, *Load backup*.
+
+**Android TV / phone:** Open the link `https://github.com/LiriPlayer/liri-releases/releases/latest/download/Liri.apk` in the browser, open the file → **Install** (the first time, allow installing from this source).
 
 ---
 
@@ -166,8 +168,8 @@ Without a PIN nothing can be locked.
 
 ## 10. Updates & problems
 
-- **Updates:** The app reports new versions itself ("Update available" → **Install**). On the first update the device asks whether Liri Media Player may install apps → allow.
-  Manually: *Settings → About / Legal → Check for update*. (Installed from the Amazon Appstore: updates come through the store.)
+- **Updates:** Installed from the Amazon Appstore: updates come automatically through the store.
+  APK version (Android TV / phone): the app reports new versions itself ("Update available" → **Install**). On the first update the device asks whether Liri Media Player may install apps → allow. Manually: *Settings → About / Legal → Check for update*.
 - **Report a problem:** *Settings → About / Legal → Report a problem* – briefly describe what isn't working → **Send**. App version, device model and a technical log are included – **no login details**.
 - **After a crash** the app asks on the next start whether it may send the report. Optionally "Send automatically in future".
 - **Backup:** before changing devices, *Save backup* – on the new device *Load backup*.
