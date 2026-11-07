@@ -1,4 +1,5 @@
 #EXTM3U
+# Filme/Serie: Blender Foundation (CC BY 3.0 / 4.0), archive.org · Poster: Wikimedia Commons
 #EXTINF:-1 tvg-id="demo-live" group-title="Demo Live",Akamai Live Test Stream
 https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
 #EXTINF:-1 tvg-id="demo-bipbop" group-title="Demo Videos",Apple HLS Test (Bip Bop)
@@ -7,3 +8,19 @@ https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_exam
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 #EXTINF:-1 tvg-id="demo-tos" group-title="Demo Videos",Tears of Steel (Blender Foundation, CC BY 3.0)
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg" group-title="Demo Filme",Big Buck Bunny (2008)
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Sintel_poster.jpg" group-title="Demo Filme",Sintel (2010)
+https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/Tos-poster.png" group-title="Demo Filme",Tears of Steel (2012)
+https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4
+#EXTINF:-1 group-title="Demo Filme",Cosmos Laundromat (2015)
+https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/ElephantsDreamPoster.jpg" group-title="Demo Serien",Blender Open Movies S01E01 Elephants Dream
+https://archive.org/download/ElephantsDream/ed_hd_512kb.mp4
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/ElephantsDreamPoster.jpg" group-title="Demo Serien",Blender Open Movies S01E02 Big Buck Bunny
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4?s=1
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/ElephantsDreamPoster.jpg" group-title="Demo Serien",Blender Open Movies S01E03 Sintel
+https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4?s=1
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/ElephantsDreamPoster.jpg" group-title="Demo Serien",Blender Open Movies S01E04 Tears of Steel
+https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4?s=1
