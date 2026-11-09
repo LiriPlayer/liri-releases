@@ -1,21 +1,50 @@
 #EXTM3U
-# Filme/Serie: Blender Foundation (CC BY 3.0 / 4.0), archive.org · Poster: Wikimedia Commons
-#EXTINF:-1 tvg-id="demo-live" group-title="Demo Live",Akamai Live Test Stream
-https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+# Filme/Serien: Blender Foundation / Blender Studio (CC BY 3.0 / 4.0), Nosferatu (1922, gemeinfrei) – archive.org · Poster: Wikimedia Commons
+# Live: oeffentliche Test-Streams (Unified Streaming, Amazon IVS)
+#EXTINF:-1 tvg-id="demo-live" group-title="Demo Live",Demo Live 1 (Testbild)
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8
+#EXTINF:-1 tvg-id="demo-live2" group-title="Demo Live",Demo Live 2 (Test-Stream)
+https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8
 #EXTINF:-1 tvg-id="demo-bipbop" group-title="Demo Videos",Apple HLS Test (Bip Bop)
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 #EXTINF:-1 tvg-id="demo-bbb" group-title="Demo Videos",Big Buck Bunny (Blender Foundation, CC BY 3.0)
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 #EXTINF:-1 tvg-id="demo-tos" group-title="Demo Videos",Tears of Steel (Blender Foundation, CC BY 3.0)
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/ElephantsDreamPoster.jpg" group-title="Demo Filme",Elephants Dream (2006)
+https://archive.org/download/ElephantsDream/ed_hd.mp4
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg" group-title="Demo Filme",Big Buck Bunny (2008)
 https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Sintel_poster.jpg" group-title="Demo Filme",Sintel (2010)
 https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/Tos-poster.png" group-title="Demo Filme",Tears of Steel (2012)
 https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Glass_Half_-_screenshot-intro_scene.png?width=500" group-title="Demo Filme",Glass Half (2015)
+https://archive.org/download/glass-half-blender-animated-cartoon/Glass%20Half%20-%20Blender%20animated%20cartoon.mp4
 #EXTINF:-1 group-title="Demo Filme",Cosmos Laundromat (2015)
 https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4
+#EXTINF:-1 group-title="Demo Filme",Agent 327: Operation Barbershop (2017)
+https://archive.org/download/agent327operationbarbershop/agent327-1080.mp4
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Hero_-_screenshot-hero_red.png?width=500" group-title="Demo Filme",Hero (2018)
+https://archive.org/download/hero_20260106/hero.mp4
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Spring2019PillarPosterBlender.jpg?width=500" group-title="Demo Filme",Spring (2019)
+https://archive.org/download/springopenmovie/springopenmovie.mp4
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Coffee_Run_-_screenshot-Location_01_Outisde-Run_1-coffee.png?width=500" group-title="Demo Filme",Coffee Run (2020)
+https://archive.org/download/coffee-run/Coffee%20Run.mp4
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Sprite_Fright-movie_poster.jpg?width=500" group-title="Demo Filme",Sprite Fright (2021)
+https://archive.org/download/sprite-fright/Sprite%20Fright%20-%20Open%20Movie%20by%20Blender%20Studio-804p.mp4
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Charge-movie_poster.jpg?width=500" group-title="Demo Filme",Charge (2022)
+https://archive.org/download/charge-blender-open-movie-1608p/Charge%20-%20Blender%20Open%20Movie%201608p.mp4
+#EXTINF:-1 group-title="Demo Filme",Wing It! (2023)
+https://archive.org/download/wing_it/wing_it.mp4
+#EXTINF:-1 group-title="Demo Klassiker",Nosferatu (1922)
+https://archive.org/download/Nosferatu_201902/Nosferatu%20_%201922%2C%20silent%2C%20full%20film%2C%20high%20quality.mp4
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Blender_Foundation_-_Caminandes_-_Episode_3_-_Llamigos_-_Cover_thumbnail.png?width=500" group-title="Demo Serien",Caminandes S01E01 Llama Drama
+https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Blender_Foundation_-_Caminandes_-_Episode_3_-_Llamigos_-_Cover_thumbnail.png?width=500" group-title="Demo Serien",Caminandes S01E02 Gran Dillama
+https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+#EXTINF:-1 tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Blender_Foundation_-_Caminandes_-_Episode_3_-_Llamigos_-_Cover_thumbnail.png?width=500" group-title="Demo Serien",Caminandes S01E03 Llamigos
+https://archive.org/download/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/ElephantsDreamPoster.jpg" group-title="Demo Serien",Blender Open Movies S01E01 Elephants Dream
 https://archive.org/download/ElephantsDream/ed_hd_512kb.mp4
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/ElephantsDreamPoster.jpg" group-title="Demo Serien",Blender Open Movies S01E02 Big Buck Bunny
